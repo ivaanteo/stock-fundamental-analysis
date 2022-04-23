@@ -16,6 +16,14 @@ Analyse which stocks in the S&P 500 would be profitable / valuable in the long r
 1. By future price prediction (Numeric Prediction)
 2. By clustering
 
+### File Structure
+`DataScripts` contain the python scripts used to save data from AlphaVantage API
+`tickers.csv` contain the tickers of the 500 companies in the S&P 500.
+`output.csv` contain the data retrieved from AlphaVantage API
+`vol5years` contain yearly volatility data
+`yoy5years` contain yearly Year-on-Year returns data
+`DSAI_Final.ipynb` contain the python notebook where we perform EDA, Machine Learning and Analysis.
+
 ### Dataset used
 - AlphaVantage API for stock prices, income statements, balance sheets, statement of cashflows and company overview
 
@@ -35,13 +43,6 @@ Analyse which stocks in the S&P 500 would be profitable / valuable in the long r
 - Artifical Neural Network
 4. Unsupervised Learning
 - Agglomerative Clustering
-
-### Results
-
-### Key takeaways
-
-
-
 
 
 
